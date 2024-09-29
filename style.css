@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 96%;
+    margin: 0 auto;
+}
+body{
+    background-image: url(./blurred-business-office-interior-business-background_297535-4650.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: blueviolet;
+    padding: 20px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+header a:hover{
+    background: chocolate;
+    color: aliceblue;
+    transition: all 0.5s;
+
+}
+iframe{
+    margin-top: 70px;
+}
+.banner-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-left iframe{
+    width: 600px;
+    min-height: 200px;
+}
+.banner-right{
+    margin-left: 20px;
+}
+.banner-right p{
+    max-width: 90%;
+    line-height: 20px;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+.banner-right .btn-1{
+   padding: 6px 10px;
+   background-color: red;
+   color: white;
+   border-radius: 7px;
+   margin-top: 20px;
+
+}
+.banner-right .btn-2{
+    padding: 6px 10px;
+    border-radius: 7px;
+    color: black;
+ 
+ }
+ .banner-right .btn-1:hover{
+     background: rgb(47, 224, 255);
+     color: yellow;
+     transition: all 0.8s;
+ }
+ .banner-right .btn-2:hover{
+    background: rgb(47, 224, 255);
+    color: yellow;
+    transition: all 0.8s;
+}
+@media screen and (max-width:980px) {
+    body{
+        
+    }
+    .banner-main{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .banner-right {
+        margin-top: 50px;
+    }
+
+}
+@media screen and (max-width:680px) {
+    #box{
+        display: none;
+
+    }
+    .banner-main{
+    }
+   
+    
+}
